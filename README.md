@@ -141,16 +141,16 @@ An interactive Streamlit dashboard was developed to provide business insights, c
 ## Dashboard Screenshots
 
 ### Dashboard Home
-![Dashboard Home](screenshots/dashboard_home.png)
+![Dashboard Home](dashboard_home.png)
 
 ### Customer Segmentation
-![Customer Segmentation](screenshots/customer_segmentation.png)
+![Customer Segmentation](customer_segmentation.png)
 
 ### High Value Customer Detector
-![High Value Customer Detector](screenshots/high_value_detector.png)
+![High Value Customer Detector](high_value_detector.png)
 
 ### Risk Analysis
-![Risk Analysis](screenshots/risk_analysis.png)
+![Risk Analysis](risk_analysis.png)
 
 ---
 
