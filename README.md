@@ -150,7 +150,7 @@ An interactive Streamlit dashboard was developed to provide business insights, c
 ![High Value Customer Detector](high_value_detector.png)
 
 ### Risk Analysis
-![Risk Analysis](risk_analysis.png)
+![Risk Analysis](risk_analysi.png)
 
 ---
 
@@ -162,12 +162,6 @@ An interactive Streamlit dashboard was developed to provide business insights, c
 * Implement loyalty and reward programs.
 * Develop region-specific retention strategies.
 * Strengthen customer relationship management.
-
----
-
-## 📷 Dashboard Screenshots
-
-(Add dashboard screenshots here)
 
 ---
 
