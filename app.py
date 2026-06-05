@@ -390,6 +390,38 @@ with tab3:
 
 with tab4:
 
+    st.markdown("---")
+    st.header("📦 Product Count Filter")
+
+    product_threshold = st.slider(
+    "Select Minimum Number of Products",
+    min_value=1,
+    max_value=4,
+    value=2
+    )
+
+    product_customers = filtered_df[
+    filtered_df["NumOfProducts"] >= product_threshold
+    ]
+
+    st.metric(
+    "Customers Matching Product Criteria",
+    len(product_customers)
+    )
+
+    st.dataframe(
+    product_customers[
+        [
+            "CustomerId",
+            "Geography",
+            "Gender",
+            "NumOfProducts",
+            "Balance",
+            "EstimatedSalary",
+            "Exited"
+        ]
+    ].head(20)
+    )
     balance_threshold = st.slider(
         "Balance Threshold",
         0,
