@@ -1,5 +1,11 @@
 # 🏦 Customer Retention Analytics Dashboard
 
+## Live Dashboard
+
+🚀 Live App:
+https://customer-retention-analytics-dashboard.streamlit.app
+
+
 ## 📌 Project Overview
 
 Customer churn is a major challenge for banks, as losing existing customers can significantly impact profitability and customer acquisition costs. This project analyzes customer retention behavior using customer engagement, product utilization, and financial data to identify churn patterns and high-risk customer segments.
