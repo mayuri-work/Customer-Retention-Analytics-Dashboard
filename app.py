@@ -490,23 +490,3 @@ st.download_button(
     file_name="filtered_customers.csv",
     mime="text/csv"
 )
-
-st.markdown("---")
-st.header("📌 Executive Summary")
-
-st.success("""
-• Churn Rate: 20.37%
-
-• Engagement Retention Ratio: 85.73%
-
-• Product Depth Index: 1.54
-
-• High-Balance Disengagement Rate: 49.05%
-
-• Credit Card Stickiness Score: 79.82%
-
-• Relationship Strength Index: 52.46
-
-Key Recommendation:
-Focus retention efforts on high-value inactive customers and increase product adoption among active customers.
-""")
