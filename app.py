@@ -490,3 +490,21 @@ st.download_button(
     file_name="filtered_customers.csv",
     mime="text/csv"
 )
+
+st.markdown("---")
+st.header("🤖 Machine Learning Model Summary")
+
+st.info("""
+Model Used: Random Forest Classifier
+
+Accuracy: 86.80%
+
+Top Predictors:
+• Age
+• Estimated Salary
+• Credit Score
+• Balance
+• Number of Products
+
+The model helps identify customers at risk of churn and supports proactive retention strategies.
+""")
