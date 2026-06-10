@@ -118,6 +118,33 @@ An interactive Streamlit dashboard was developed to provide business insights, c
 
 ---
 
+### Model Results
+
+![Feature Importance](feature_importance.png)
+
+![Confusion Matrix](confusion_matrix.png)
+
+
+## Machine Learning Churn Prediction
+
+### Model Used
+- Random Forest Classifier
+
+### Performance
+- Accuracy: 86.80%
+
+### Top Predictors of Churn
+- Age
+- Estimated Salary
+- Credit Score
+- Balance
+- Number of Products
+
+### Business Impact
+The predictive model helps identify customers at risk of churn and supports proactive retention strategies through targeted engagement and product recommendations.
+
+---
+
 ## 📊 Key Performance Indicators (KPIs)
 
 | KPI                             | Value  |
